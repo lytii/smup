@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <item name="player_card_layout" type="id"></item>
+   <item name="player_ui_layout" type="id"></item>
+   <item name="field_layout" type="id"></item>
+   <item name="other_players_layout" type="id"></item>
+
+
+   <item name="faction_card0_image_view" type="id"></item>
+   <item name="faction_card1_image_view" type="id"></item>
+   <item name="victory_points_text_view" type="id"></item>
+   <item name="player_card" type="id"></item>
+   <item name="player_one_card" type="id"></item>
+</resources>

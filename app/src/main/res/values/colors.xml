@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="colorPrimary">#3F51B5</color>
+   <color name="colorPrimaryDark">#300F9F</color>
+   <color name="colorAccent">#FF4081</color>
+   <color name="colorOrange">#FFA000</color>
+   <color name="whiteBorder">#FFFFF0</color>
+   <color name="black_overlay">#66000000</color>
+   <color name="blackColor">#ff000000</color>
+
+   <array name="playerColors">
+      <item>@color/playerOne</item>
+      <item>@color/playerTwo</item>
+   </array>
+
+   <color name="playerOne">#FF1000</color>
+   <color name="playerTwo">#3a2ff4</color>
+
+</resources>

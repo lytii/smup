@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/player_card"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin">
+
+   <LinearLayout
+      android:id="@id/player_card_layout"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:foreground="@drawable/rediconborder">
+
+      <ImageView
+         android:id="@+id/faction_card0_image_view"
+         android:layout_width="@dimen/faction_card_width"
+         android:layout_height="@dimen/faction_card_height"
+         android:src="@drawable/aliens" />
+
+      <ImageView
+         android:id="@+id/faction_card1_image_view"
+         android:layout_width="@dimen/faction_card_width"
+         android:layout_height="@dimen/faction_card_height"
+         android:src="@drawable/pirates" />
+   </LinearLayout>
+
+   <TextView
+      android:id="@id/victory_points_text_view"
+      style="@style/FontedText"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:gravity="center"
+      android:textColor="@color/playerOne"
+      android:textSize="50dp" />
+</RelativeLayout>

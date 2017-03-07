@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <dimen name="icon_border_width" type="dimen" format="float">2.5dp</dimen>
+   <dimen name="icon_border_corner_radius">5dip</dimen>
+   <dimen name="icon_card_width">52dp</dimen>
+   <dimen name="icon_card_height">70dp</dimen>
+
+   <!--<dimen name="base_card_width">48dp</dimen>-->
+   <!--<dimen name="base_card_height">36dp</dimen>-->
+   <dimen name="field_text_size">14sp</dimen>
+
+   <dimen name="base_card_width">64dp</dimen>
+   <dimen name="base_card_height">48dp</dimen>
+   <dimen name="faction_card_width">48dp</dimen>
+   <dimen name="faction_card_height">64dp</dimen>
+   <dimen name="margin">5dp</dimen>
+
+</resources>

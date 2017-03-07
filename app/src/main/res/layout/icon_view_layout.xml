@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+   <!--card in icon view-->
+   <ImageView
+      android:id="@+id/iconCard2"
+      android:layout_width="@dimen/icon_card_width"
+      android:layout_height="@dimen/icon_card_height"
+      android:foreground="@drawable/rediconborder"
+      android:padding="2dp"
+      android:src="@drawable/icon" />
+
+
+   <TextView
+      android:id="@+id/victory_points_text_view"
+      style="@style/FontedText"
+      android:textColor="@color/playerOne"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="5dp"
+      android:layout_marginTop="1dp"/>
+</RelativeLayout>
